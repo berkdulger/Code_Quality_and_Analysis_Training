@@ -1,3 +1,4 @@
+//
 //package com.review.exercise;
 //
 //import java.sql.SQLException;
@@ -8,7 +9,7 @@
 //	private String accountNumber;
 //
 //	public Account(String accountNumber){
-//		// Constructor
+//		 //Constructor
 //		this.accountNumber = accountNumber;
 //	}
 //
@@ -18,13 +19,13 @@
 //
 //	public ArrayList getTransactions() throws Exception{
 //		try{
-//			List dbTransactionList = Db.getTransactions(accountNumber.trim()); //Get the list of transactions
+//		    List dbTransactionList = Db.getTransactions(accountNumber.trim()); //Get the list of transactions
 //			ArrayList transactionList = new ArrayList();
 //			int i;
 //			for(i=0; i<dbTransactionList.size(); i++){
 //				DbRow dbRow = (DbRow) dbTransactionList.get(i);
 //				Transaction trans = makeTransactionFromDbRow(dbRow);
-//				transactionList.add(trans);
+//			  transactionList.add(trans);
 //			}
 //			return transactionList;
 //

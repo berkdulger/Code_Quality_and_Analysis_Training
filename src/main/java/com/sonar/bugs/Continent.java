@@ -6,7 +6,11 @@ public enum Continent {
 	UNKNOWN(0, 0);
 
 	public int countryCount;
+	public int countryCount2;
+
 	private int landMass;
+
+
 
 	Continent(int countryCount, int landMass) {
 		this.countryCount = countryCount;
