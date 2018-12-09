@@ -14,7 +14,7 @@ public enum Continent {
 
 	Continent(int countryCount, int landMass) {
 		this.countryCount = countryCount;
-		this.landMass = landMass;
+		this.landMass =  landMass;
 	}
 
 	public void setLandMass(int landMass) {  // Noncompliant
