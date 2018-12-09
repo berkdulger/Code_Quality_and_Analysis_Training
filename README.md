@@ -1,5 +1,8 @@
 This example demonstrates how to analyze a simple Java Maven project. Thanks to https://github.com/sandeepvalapi.
 
+[![Build Status](https://travis-ci.org/berkdulger/Code_Quality_and_Analysis_Training.svg?branch=master)
+
+
 Prerequisites
 =============
 * [SonarQube](http://www.sonarqube.org/downloads/) 4.5+
