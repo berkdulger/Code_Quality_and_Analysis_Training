@@ -4,7 +4,7 @@ addons:
     token:
       secure: "f109eeaaff1f6702a4951590b9dcffced388be71" # encrypted value of your token
 jdk:
-  - oraclejdk8
+  - oraclejdk15
 script:
   - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar
 cache:
