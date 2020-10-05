@@ -14,7 +14,7 @@
 		<maven.compiler.source>15</maven.compiler.source>
 		<checkstyle.cache.dir>${project.build.directory}/checkstyle-cache</checkstyle.cache.dir>
 		<checkstyle.reports.dir>${project.build.directory}/checkstyle-reports</checkstyle.reports.dir>
-		<version.checkstyle>8.0</version.checkstyle>
+		<version.checkstyle>8.29</version.checkstyle>
 		<version.maven.checkstyle.plugin>2.17</version.maven.checkstyle.plugin>
 		<checkstyle.skip>true</checkstyle.skip>
 	</properties>
